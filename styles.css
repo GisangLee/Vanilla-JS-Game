@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+@import "reset.css";
+
+body {
+  background-color: #d5e0e0;
+  font-family: "Jua", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.canvas {
+  width: 650px;
+  height: 650px;
+  box-shadow: 10px 10px 20px -13px rgba(0, 0, 0, 0.75);
+  background-color: white;
+  border-radius: 15px;
+}
+
+.controls {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls .controls__btns {
+  margin-bottom: 30px;
+}
+
+.controls__btns button {
+  all: unset;
+  cursor: pointer;
+  background-color: white;
+  padding: 5px 0px;
+  width: 80px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.controls__btns button:active {
+  transform: scale(0.98);
+}
+
+.controls .controls__colors {
+  display: flex;
+}
+
+.controls__colors .controls__color {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 20px -13px rgba(0, 0, 0, 0.75);
+}
+
+.controls .controls__range {
+  margin-bottom: 30px;
+}
